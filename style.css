@@ -1,0 +1,75 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width:80%;
+  
+    margin: auto;
+    padding: 34px;
+
+}
+body{
+    background-repeat: no-repeat;
+    color:aqua;
+}
+b{
+    color: red;
+}
+
+.container h1{
+    text-align: center;
+}
+p{
+    font-size:20px;
+    text-align: center;
+    color:rgb(132, 0, 255);
+    background-color: pink;
+}
+img{
+    width:50px;
+    height: 80px;
+   background-repeat: no-repeat;
+}
+.submitmsg{
+    color:magenta;
+    background-color: aqua;
+}
+.submitmsg:hover{
+    color: indigo;
+    background-color: white;
+}
+input,textarea{
+    
+    width: 80%;
+    font-size: 25px;
+    margin: 11px 0px;
+    padding: 7px;
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+    resize: none;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.btn{
+    color:white;
+    background-color: purple;
+    padding: 15px 10px;
+    font-size: 20px;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 25px;
+}
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index:-1 ;
+    opacity: 1;
+}
